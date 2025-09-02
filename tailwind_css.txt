@@ -1,0 +1,161 @@
+
+//Now we all used tailwind css version 4.
+//Tailwind is the frame-work of csss.
+// so to start leraning about tailwind css , we must know some overview about css,
+
+
+//all time reference go though the documentation about tailwind css.
+//tailwind css documenttation..
+
+
+
+// so many website present in the browser ,go through the documentation for your better learning and better experience,
+
+
+
+///A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
+
+
+
+//tailwind looks like a inline css ,lekin tailwind mwin bohot sare process hota hain.or end mein jho file export hota hain ohh file ohi hota hain jho kam mein aye ,
+
+//sari css export nahi hota hain.
+
+// alreay classes define hain srif used karna hain.
+
+
+Tailwind is unapologetically modern, and takes advantage of all the latest and greatest CSS features to make the developer experience as enjoyable as possible.
+
+
+
+Ship faster and smaller.
+text-base 
+text-white
+Tailwind automatically removes all unused CSS when building for production, which means your final CSS bundle is the smallest it could possibly be. In fact, most Tailwind projects ship less than 10kB of CSS to the client.
+
+
+Build whatever you want, without touching your CSS file.
+text-base 
+text-white
+Because Tailwind is so low-level, it never encourages you to design the same site twice. Some of your favorite sites are built with Tailwind, and you probably had no idea.
+
+
+
+Move even faster with Tailwind Plus.
+text-base 
+text-white
+Tailwind Plus is a collection of beautiful, fully responsive UI components, designed and developed by us, the creators of Tailwind CSS. It's got hundreds of ready-to-use examples to choose from, and is guaranteed to help you find the perfect starting point for what you want to build.
+
+
+//setup
+
+
+// jsut go through the tailwind css documentation,and check how to set up tailwind css with your machin ,then go to the cdn tab ,and open the tab and copy the link and add the link in your html header section ,
+
+//first go to the extention part and download the Tailwind CSS IntelliSense.
+
+//after download the tailwind css , all class sajetion not come properly ,
+Use the Play CDN to try Tailwind right in the browser without any build step. The Play CDN is designed for development purposes only, and is not intended for production.
+
+//lets try to download tailwind css in different way.
+
+
+
+//we can used the tailwind css in two way 
+1.Tailwind CLI
+2.Using PostCSS
+
+
+//here we used the tailwind cli.
+
+
+//before use it just go through your terminal and check your machine already havee the node or not ,i node already present in the setup then it is ok ,if not then download the node...
+
+// first run npx tailwindcss init 
+
+then create a file in your src file ,and write 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+then go to your settings using ctrl ,
+then fix the problem .
+
+
+
+//u can get this all by through your tailwind css documnettaion.
+
+//after that we need to export the module ..
+
+//tailwind css version 4 
+//just check the documentation as wise do what are write there ..
+
+Install Tailwind CSS
+Install tailwindcss and @tailwindcss/cli via npm.
+
+mport Tailwind in your CSS
+Add the @import "tailwindcss"; import to your main CSS file.
+
+
+Start the Tailwind CLI build process
+Run the CLI tool to scan your source files for classes and build your CSS.
+
+Start using Tailwind in your HTML
+Add your compiled CSS file to the <head> and start using Tailwind’s utility classes to style your content.
+
+
+
+//$ npx tailwindcss -i ./src/input.css -o ./dist/style.css
+≈ tailwindcss v4.1.11
+for create a file .in your dict.
+
+<body  class="bg-slate-950  text-white">
+
+
+in the style.css file there are so many default css are present ,and also what u write noww thats also present in this folder.
+
+
+//just run this command in your terminal 
+
+$ npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch
+
+//continously watch karta rahega ..
+
+
+//************************************************************************************************
+
+//ak contaner ,/text ko center mein lehh aye..
+
+
+//to get out from the terminal just press ctrl c..
+
+//
+
+
+
+
+
+//Styling with utility classes
+
+
+//Hover, focus, and other states
+//Responsive design
+
+
+Working mobile-first
+Tailwind uses a mobile-first breakpoint system, similar to what you might be used to in other frameworks like Bootstrap.
+
+What this means is that unprefixed utilities (like uppercase) take effect on all screen sizes, while prefixed utilities (like md:uppercase) only take effect at the specified breakpoint and above.
+
+
+//jho bhi appp css implement karoge ohh pehela mobiile mein implement hoga.
+
+Targeting mobile screens
+Where this approach surprises people most often is that to style something for mobile, you need to use the unprefixed version of a utility, not the sm: prefixed version. Don't think of sm: as meaning "on small screens", think of it as "at the small breakpoint".
+
+
+
+//creating a card..
+
+
+
